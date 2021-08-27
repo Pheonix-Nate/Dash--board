@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(22, 22, 22);
+}
+.container{
+    display: flex;
+}
+.header-content{
+    background-color: black;
+    width: 1030px;
+    height: 65px;
+    position: absolute;
+    display: flex;
+    margin-left: 250px;
+}
+.name{
+    display: flex;
+}
+.name a {
+    display: flex;
+    text-decoration: none;
+}
+.profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 60px;
+    margin-top: 5px;
+    background-color: black;
+}
+.text{
+    color: rgb(78, 78, 221);
+    font-size: 26px;
+    font-style: italic;
+    font-family: Luminari;
+    margin-top: 15px;
+    margin-left: 20px;
+    z-index: 80;
+}
+.invite{
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Luminari';
+    color: white;
+    margin-left: 80px;
+    margin-top: 16px;
+    border: 2px solid rgb(73, 73, 73);
+    background-color: rgb(0, 136, 7);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.invite:hover{
+   background-color:rgb(0, 90, 5) ;
+}
+.invite h3{
+    margin-top: 3px;
+}
+.main-search{
+    display: flex;
+}
+input{
+    height: 45px;
+    border: 1.5px solid gray;
+    width: 300px;
+    margin: auto;
+    margin-left: 60px;
+    justify-content: center;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+input:hover{
+    border: 1.5px solid rgb(0, 89, 172);
+}
+.search-icon{
+    z-index: 50px;
+    width: 27px;
+    height: 27px;
+    margin-top: 19px;
+    margin-left: -290px;
+}
+.request{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid rgb(38, 38, 143);
+    background-color: inherit;
+    margin-left: 290px;
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: -20px;
+    font-family: 'Calibri';
+}
+.request:hover{
+    background-color: rgb(10, 10, 10);
+}
+.notify{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+.mail{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+.login{
+    width: 80px;
+    height: 36px;
+    margin-top: 15px;
+    margin-left:20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+a .login{
+    color: black;
+}
+.login h1{
+    font-size: 16px;
+}
+.lines{
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+}
+.first-line{
+   background-color: white;
+   width: 4px;
+   height: 4px;
+   border-radius: 100%;
+}
+.second-line{
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    margin-left: 2px;
+    border-radius: 100%;
+ }
+ .third-line{
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    margin-left: 2px;
+    border-radius: 100%;
+ }
+.aside{
+    background-color: #050505;
+    height:721px;
+    width: 250px;
+}
+ul{
+    margin-top: 100px;
+}
+.simp{
+    margin-top: 50px;
+    margin-left: 85px;
+    display: flex;
+}
+.simp a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.simp a:hover{
+ color: rgb(58, 58, 255);
+}
+
+.helpMe{
+    font-size: 19px;
+    font-style: italic;
+    font-family: "Apple Chancery";
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.helpME a{
+    text-decoration: none;
+    color: snow;
+}
+.cards{
+    background-color: rgb(15, 15, 15);
+    width: 1030px;
+    height: 80px;
+    display: flex;
+}
+.back{
+    width:15px;
+    height: 150px;
+    background-color: rgb(105, 105, 105);
+    margin-top: 80px;
+    margin-left: 12px;
+    border-radius: 10px;
+    color: #b3b3b3;
+    position: fixed
+}
+.back h4{
+    margin-top: 65px;
+    margin-left: 2.5px;
+}
+.first-card{
+     background-color: rgb(173, 173, 173);
+     height: 150px;
+     width: 270px;
+     border-radius: 10px;
+     margin-top: 80px;
+     margin-left: 40px;
+     padding-left: 20px;
+}
+.first-card:hover{
+    background-color:rgb(190, 190, 190) ;
+}
+.first-card h2{
+    font-weight: 2000px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: 'Luminari';
+    text-align: inherit;
+}
+.first-card h4{
+    font-size: 12px;
+}
+.second-card{
+    background-color: rgb(173, 173, 173);
+    height: 150px;
+    width: 270px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+.second-card:hover{
+   background-color:rgb(190, 190, 190) ;
+}
+.second-card h2{
+   font-weight: 2000px;
+   margin-left: 38px;
+   margin-top: 10px;
+   font-size: 21px;
+   font-family: 'Luminari';
+   text-align: inherit;
+}
+.second-card h4{
+   font-size: 12px;
+}
+.third-card{
+    background-color: rgb(173, 173, 173);
+    height: 150px;
+    width: 270px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: -330px;
+    padding-left: 20px;
+}
+.third-card:hover{
+   background-color:rgb(190, 190, 190) ;
+}
+.third-card h2{
+   font-weight: 2000px;
+   margin-left: 50px;
+   margin-top: 10px;
+   font-size: 21px;
+   font-family: 'Luminari';
+   text-align: inherit;
+}
+.third-card h4{
+   font-size: 12px;
+}
+.front{
+    width:15px;
+    height: 150px;
+    background-color: rgb(105, 105, 105);
+    margin-top: 80px;
+    border-radius: 10px;
+    color: #b3b3b3;
+    position: fixed;
+    margin-left: 1254px;
+}
+.front h4{
+    margin-top: 65px;
+    margin-left: 2.5px;
+}
+.sales{
+    width: 490px;
+    height: 270px;
+    background-color: rgb(180, 180, 180);
+    margin-left: 280px;
+    margin-top: -440;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px 40px 5px 40px;
+}
+.sales:hover{
+    background-color:rgb(190, 190, 190) ;
+}
+.sales h3{
+    font-family: 'Luminari';
+    font-weight: 800;
+}
+.first-sale{
+    background-color: rgb(0, 255, 0);
+    height: 210px;
+    width: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 220px;
+    margin-top: 15px;
+}
+.second-sale{
+    background-color: rgb(0, 255, 0);
+    height: 100px;
+    width: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.third-sale{
+    background-color: rgb(0, 255, 0);
+    height: 160px;
+    width: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 380px;
+    margin-top: -160px;
+}
+.losers{
+    margin-top: 7px;
+}
+.bottom-feeder{
+    width: 490px;
+    height: 2px;
+    background-color: black;
+    margin-top:0;
+}
+.amount{
+    display: flex;
+    margin-left: 200px;
+}
+.amount h4{
+    font-size: 18px;
+    font-family: 'Cooper Black';
+    margin-left: 10px;
+}
+.percentage{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 6px solid snow;
+    margin-top: -180px;
+    margin-left: 30px;
+    background-color: rgb(15, 15, 15);
+}
+.percentage h4{
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: silver;
+}
+.total{
+    font-style: italic;
+    font-family: "Cooper Black";
+    font-size: 17px;
+}
+.restock{
+margin-left: 300px;
+margin-top: -170px;
+}
+.restock h4{
+    font-size: 17px;
+    font-family: 'New Times Roman';
+    font-style: italic;
+}
+.restock-timer{
+    height: 15px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgb(128, 128, 128);
+    background-size: 30%;
+    background-repeat: repeat;
+}
+.tick{
+    height: 15px;
+    width: 15px;
+    border: 2px solid black;
+    background-color: rgb(255, 0, 0);
+    margin-left: 202px;
+    margin-top: -19px;
+}
+.money{
+    margin-top: 170px;
+    color: darkgreen;
+    margin-left: -300px;
+}
+.sold-out{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(180, 180, 180);
+    margin-left: 950px;
+    margin-top: -293px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.sold-out h4{
+    font-size: 27px;
+    margin-left: 70px;
+    margin-top: 120px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000px;
+}
+.sold-out:hover{
+    background-color:rgb(190, 190, 190) ;
+}
+.footer{
+    width: 1030px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    display: flex;
+}
+.footer h4{
+    font-family: 'Calibri';
+    font-weight: lighter;
+    margin-left: 400px;
+    margin-top: 43px;
+    word-spacing: 5px;
+    font-size: 16px;
+    color: white;
+}
+.copyright{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: -350px
+}

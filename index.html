@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="Dynamond.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamond</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Creating the top title of the page -->
+    <div class="header-content">
+       <button  ondblclick="alert('This goes nowhere')" class="invite">
+        <h3>Invite +</h3>
+       </button>
+    <form class="main-search">
+        <input placeholder="Search or jump to..." type="text">
+        <img class="search-icon" src="icons8-search-30.png" alt="search icon">
+        <button class="request" ondblclick="alert('This goes nowhere')"><h2>Make a request +</h2></button>
+    </form>
+        <img id="notify" class="notify" src = "icons8-notification.png">
+        <img id="mail" class="mail" src = "icons8-important_mail.png">
+        <a href="#"><button ondblclick="alert('This goes nowhere')" class="login" id="lv"><h1>Login</h1></button></a>
+        <div id="lines" class="lines">
+            <div class="first-line"></div>
+            <div class="second-line"></div>
+            <div class="third-line"></div>
+        </div>
+    </div>
+
+    <!-- Creating the Nav Bar -->
+    <nav class="aside">
+        <div class="name">
+        <a href="index.html"><img src="Dynamond.png" class="profile">
+        <h1 class="text">Dynamond</h1></a>
+        </div>
+        <ul>
+            <li class="simp"><a onclick="alert('This goes nowhere')" href="#">Home</a></li>
+            <li class="simp"><a onclick="alert('This goes nowhere')" href="#">About</a></li>
+            <li class="simp"><a onclick="alert('This goes nowhere')" href="#">Contact us</a></li>
+            <li class="simp"><a onclick="alert('This goes nowhere')" href="#">Preview</a></li>
+            <li class="simp"><a onclick="alert('This goes nowhere')" href="#">Enterprise</a></li>
+            <li class="simp"><a onclick="alert('This goes nowhere')" href="#">Purchase</a></li> 
+            <li class="simp"><a onclick="alert('This goes nowhere')" href="#">Download</a></li>  
+        </ul>
+        <h3 class="helpME"><a onclick="alert('I am sorry but I do not really care to help you. Can you please leave me alone?')" href="#">Help ?</a></h3>
+    </nav>
+
+     <!-- Adding the cards -->
+
+        <div class="cards">
+            <div class="back" onclick="alert('Nothing here')"> <h4> < </h4> </div>
+            <div class="first-card"  ondblclick=" alert('Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum quisquam dolor reiciendis distinctio similique placeat aliquam libero animi impedit cumque, voluptatum repellendus dolore quasi consectetur et, quae saepe itaque temporibus sit assumenda esse illo aliquid! Rerum impedit omnis voluptate itaque?')" id="first_card"><h2>Diamond Lost In The Sea</h2> <h4>Lorem ipsum dolor sit amet,</br>  consecteturadipisicing elit. Illum </br> at exercitationem possimus sunt </br> eum quam, deserunt cumque praesentium, </br> fuga accusamus dolorum, impedit ea odio </br> natus veritatis. Iste minus molestias dolorum!</br> rem20</h4></div>
+            <div class="second-card" ondblclick="alert('Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est perferendis alias reprehenderit qui necessitatibus? Deserunt ducimus quos minus saepe in assumenda cum consequatur ratione excepturi perferendis. Suscipit, perferendis, tempore voluptatibus id sapiente delectus in repellendus accusamus magni doloremque ipsum veniam?')" id="second_card"><h2>Shredded Homes</h2> <h4>Lorem ipsum dolor sit amet</br>  consectetur adipisicing elit. Ab </br> dolorum quis cum rerum beatae </br> expedita molestiae, sunt molestias </br> sequi nisi sapiente aspernatur</br> labore dolor quidem fugiat perferendis exercitationem autem rem dicta necessitatibus.</h4></div></div>
+            <div class="third-card" ondblclick="alert('Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, expedita beatae non magnam, numquam, omnis ea itaque repellendus sequi possimus ab. Expedita saepe tempora aut autem nulla nemo ab corporis ut! Excepturi commodi nesciunt deserunt dolor numquam optio distinctio explicabo.')" id="third_card"><h2>Unending Wars</h2> <h4>Lorem ipsum dolor sit amet</br>  consectetur adipisicing elit. Ab </br> dolorum quis cum rerum beatae </br> expedita molestiae, sunt molestias </br> sequi nisi sapiente aspernatur</br> labore dolor quidem fugiat perferendis exercitationem autem rem dicta necessitatibus.</h4></div>
+            <div class="front" onclick="alert('Nothing here')"> <h4> > </h4> </div>
+    </div>
+
+    <!-- Adding a graph to show more info on the page -->
+
+    <div ondblclick="alert('Check out your graph. There is some info about sales, totals and more!')" class=" sales" id="sales">
+    <h3>Graph of sales</h3>
+    <div>
+    <div class="first-sale"></div>
+    <div class="second-sale"></div>
+        <div class="third-sale"></div>
+</div>
+<div class="percentage"><h4>26%</h4></div>
+<h4 class="total">Total percentage</h4>
+<div class="restock">
+<h4>Till next restock:</h4>
+<div class="restock-timer"></div>
+<div class="tick"></div>
+<h4 class="money">Money gained: 210k$</h4>
+</div>
+<div class="losers">
+<div class="bottom-feeder"></div>
+<div class="amount">
+<h4>1.8k/97%</h4>
+<h4>857/48%</h4>
+<h4>1.1k/77%</h4>
+</div>
+</div>
+</div>
+
+ <!-- Still adding few info on page -->
+
+<div ondblclick="alert('This has been bought. Please wait for next restock')" class="sold-out" id="sold_out"><h4>SOLD OUT!</h4></div>
+
+  <!-- Adding a footer -->
+
+<div class="footer"><h4><img class='copyright' src="icons8-copyright-24.png">2021 Dynamond LLC</a></h4>
+</div>
+</div>
+<script src="script.js">
+
+</script>
+</body>
+</html>
