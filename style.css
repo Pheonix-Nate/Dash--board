@@ -206,6 +206,9 @@ ul{
 }
 .first-card{
      background-color: rgb(173, 173, 173);
+     background-image: url(diamond.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
      height: 150px;
      width: 270px;
      border-radius: 10px;
@@ -229,6 +232,9 @@ ul{
 }
 .second-card{
     background-color: rgb(173, 173, 173);
+    background-image: url(Assassin.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 150px;
     width: 270px;
     border-radius: 10px;
@@ -252,6 +258,9 @@ ul{
 }
 .third-card{
     background-color: rgb(173, 173, 173);
+    background-image: url(path.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 150px;
     width: 270px;
     border-radius: 10px;
@@ -291,6 +300,9 @@ ul{
     width: 490px;
     height: 270px;
     background-color: rgb(180, 180, 180);
+    background-image: url(graph2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin-left: 280px;
     margin-top: -440;
     border-radius: 10px;
